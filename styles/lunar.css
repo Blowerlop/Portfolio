@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --grisclair: rgb(115, 115, 115);
+    --black: rgb(38, 38, 38);
+    --white: rgb(255, 255, 255);
+    --grisfonce: rgb(75,75,75);
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+}
+
+.feuille{
+    background-color: var(--grisfonce);
+    border-radius: 20px;
+    width: 70%;
+    text-align: center;
+    margin-left:15%;
+    margin-right: 15%;
+    padding-inline:10px;
+    border: var(--grisclair) solid 1px;
+    font-family: 'Roboto', sans-serif;
+}
+.feuille-copy{
+    background-color: var(--grisfonce);
+    border-radius: 20px;
+    width: 70%;
+    text-align: center;
+    margin-left:15%;
+    margin-right: 15%;
+    padding-inline:10px;
+    border: var(--grisclair) solid 1px;
+    font-family: 'Roboto', sans-serif;
+}
+.title{
+    color: var(--white);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.contentp{
+    color: black;
+    
+}
+section{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 5vh;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-copy{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 5vh;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.im{
+    border-radius: 50%;
+}
+.v{
+    min-width: 300px;
+    max-width: 600px;
+    margin-left: 15%;
+}
+.droite{
+    padding: 12px;
+    background-color: var(--grisfonce);
+    border-radius: 10px 0px 0px 10px;
+    min-width: 100px;
+    width: 40%;
+    
+    border: var(--grisclair) solid 1px;
+}
+.droite a img{
+    border-radius: 50%;
+}
+.images{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.imagesexp{
+    max-width:800px;
+    min-width: 300px;
+
+}
+.imagesexp:first-child{
+    margin-left: 70px;
+
+}
+.imagesexp:last-child{
+    margin-right: 70px;
+
+
+
+}
+#z{
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+#lnr{
+    display: block;
+    width: 60%;
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width:1100px){
+    
+    .flex{
+        display: block;
+        
+    }
+    .droite{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 10px;
+        min-width: 300px;
+    }
+    .v{
+        max-width: 300px;
+    }
+    .images{
+        display: block;
+        
+    }
+    .imagesexp{
+        width: 60%;
+        margin: 0;
+    }
+    .imagesexp:first-child{
+        margin-left:0;
+    
+    }
+    .imagesexp:last-child{
+        margin-right: 0;
+    
+    }
+    
+}
+
