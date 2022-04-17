@@ -20,11 +20,11 @@
 
   <header>
     <img id="profile" src="./images/GIRODwhite.png" alt="Name">
-    <h2 id="presentation"> <b> <em class="color">Gameplay</em></b> developer</h2>
+    <h2 id="presentation"> <b> <em class="color">Etudiant</em></b> ENJMIN</h2>
     <nav>
       <ul>
         <li><a href="./index.html">Accueil</a></li>
-        <li><a href="./CV/cv.pdf">CV</a></li>
+        <li><a target='_blank' href="./CV/cv.pdf">CV</a></li>
         <li><a target='_blank'  href="https://github.com/Blowerlop">Github</a></li>
       </ul>
     </nav>
@@ -36,18 +36,58 @@
     <h3>Cliquez sur l'un des jeux afin d'accéder à sa présentation !</h3>
     <div class="all">
       <div class="content" style="max-width:1200px; display: flex;">
-        <a href="./lunarfighter.html"><img class="mySlides" id="slide1" src="./images/image1.png" style="width:100%"></a>
+        <div class="info">
+        <a href="./experimental.html"><img class="mySlides" id="slide1" src="./images/surv.png" style="width:100%"></a>
+      <span class="infobulle-span">
+        <p>
+<b class="gap">Nom du jeu :</b> 
+Prototype <br>
+<b class="gap">Genre : </b>
+Jeu d'aventure en troisième personne <br>
+<b class="gap">Moteur de jeu:</b> 
+Unity <br>
+<b class="gap">Rôle :</b>  Développé seul <br>
+<b class="gap">But du jeu :</b> Vaincre le boss qui se trouve endormi depuis longtemps <br>
+</p>
+      </span>
+      </div>
+      <div class="info">
+        <a href="./lunarfighter.html"><img class="mySlides"  src="./images/image1.png" style="width:100%"></a>
+        <span class="infobulle-span">
+          <p>
+  <b class="gap">Nom du jeu :</b> 
+  Lunar Fighter <br>
+  <b class="gap">Genre : </b>
+  2D Space Shooter<br>
+  <b class="gap">Framework  :</b> 
+  MonoGame <br>
+  <b class="gap">Rôle :</b>  Tous <br>
+  <b class="gap">But du jeu :</b> Détruire un maximum d'astéroïdes à l'aide des missiles de votre vaisseau <br>
+  </p>
+        </span>
+      </div>
+      <div class="info">
         <a href="./apocalypse.html"> <img class="mySlides" src="./images/aaa.png" style="width:100%"></a>
-        <a href="./experimental.html"><img class="mySlides" src="./images/imageprototype.png" style="width:100%"></a>
+        <span class="infobulle-span">
+          <p>
+  <b class="gap">Nom du jeu :</b> 
+  Apocalypse <br>
+  <b class="gap">Genre : </b>
+  Top-Down Shooter<br>
+  <b class="gap">Moteur de jeu  :</b> 
+  Unity <br>
+  <b class="gap">Rôle :</b>  Tous <br>
+  <b class="gap">But du jeu :</b> Survivre le plus longtemps possible en abattant les vagues de zombies qui vous arrivent dessus<br>
+  </p>
+        </span>
+      </div>
       </div>
       <div class="center">
         <div class="section">
           <button class="button light-grey" onclick="plusDivs(-1)">❮ Prev</button>
           <button class="button light-grey" onclick="plusDivs(1)">Next ❯</button>
         </div>
-        <button class="button demo" onclick="currentDiv(1)">1</button>
-        <button class="button demo" onclick="currentDiv(2)">2</button>
-        <button class="button demo" onclick="currentDiv(3)">3</button>
+
       </div>
     </div>
 
