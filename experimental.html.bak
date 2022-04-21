@@ -16,11 +16,11 @@
 
   <header>
     <img id="profile" src="./images/GIRODwhite.png" alt="Name">
-    <h2 id="presentation"> <b> <em class="color">Gameplay</em></b> developer</h2>
+    <h2 id="presentation"> <b> <em class="color">Etudiant</em></b> ENJMIN</h2>
     <nav>
       <ul>
         <li><a href="./index.html">Accueil</a></li>
-        <li><a href="./CV/cv">CV</a></li>
+        <li><a target='_blank' href="./CV/cv.pdf">CV</a></li>
         <li><a target='_blank'  href="https://github.com/Blowerlop">Github</a></li>
       </ul>
     </nav>
@@ -34,22 +34,36 @@
       <p>Ce jeu est un prototype où je réalise « from scratch » plein de mécaniques de RPG tel qu’un inventory system, des PNJ avec dialogues, tout un tas d’animations (saut, accroupi, sprint), un système de combo d’attaques, des sorts, un UI, etc…</p>
     </div>
 
+    <div class="texteseparation">
+      <div class="txtgauche"><h3 class="title">Systèmes finis</h3><ul>
+        <li>Inventaire</li>
+        <li>Déplacement en troisième personne</li>
+        <li>Animations</li>
+        <li>PNJ avec dialogues</li></ul></div>
+      <div class="txtdroite"><h3 class="title">Systèmes en cours de création</h3><ul><li>Attaque combo</li>
+      <li>Sorts</li></ul></div>
 
+     </div>
     <section class="explication">
       <div class="flex-copy">
         <div class="feuille-copy">
           <h4 class="title">Lien du projet</h4>
           <p><em>Cliquez pour télécharger</em></p>
           <a download href="./PrototypeGame.rar">
-            <img class="im"src="./images/imageprototyperounded.png" alt="image experimental" width="250px"></a>
+            <img class="im"src="./images/surv.png" alt="image experimental" width="250px"></a>
         </div>
       </div>
      </section>
 
      <div class="images">
-      <img class="imagesexp"src="./images/exp.png" alt="image gameplay1">
-      <img class="imagesexp"src="./images/exp2.png" alt="image gameplay2">
+      <img class="imagesexp"src="./images/Screenshot_1.png" alt="image gameplay1">
+      <img class="imagesexp"src="./images/Screenshot_2.png" alt="image gameplay2">
      </div>
+     <div class="images">
+      <img class="imagesexp"src="./images/Screenshot_3.png" alt="image gameplay1">
+      <img class="imagesexp"src="./images/Screenshot_4.png" alt="image gameplay2">
+     </div>
+
   </main>
 </body>
 </html>
