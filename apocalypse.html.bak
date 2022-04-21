@@ -15,11 +15,11 @@
 
   <header>
     <img id="profile" src="./images/GIRODwhite.png" alt="Name">
-    <h2 id="presentation"> <b> <em class="color">Gameplay</em></b> developer</h2>
+    <h2 id="presentation"> <b> <em class="color">Etudiant</em></b> ENJMIN</h2>
     <nav>
       <ul>
         <li><a href="./index.html">Accueil</a></li>
-        <li><a href="./CV/cv.pdf">CV</a></li>
+        <li><a target='_blank' href="./CV/cv.pdf">CV</a></li>
         <li><a target='_blank' href="https://github.com/Blowerlop">Github</a></li>
       </ul>
     </nav>

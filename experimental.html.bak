@@ -31,7 +31,7 @@
     </div>
     <div class="feuille">
       <h4 class="title">Prototype Game</h4>
-      <p>Ce jeu est un prototype où je réalise « from scratch » plein de mécaniques de RPG tel qu’un inventory system, des PNJ avec dialogues, tout un tas d’animations (saut, accroupi, sprint), un système de combo d’attaques, des sorts, un UI, etc…</p>
+      <p>Vertical slice où je réalise « from scratch » plein de mécaniques de RPG tel qu’un inventory system, des PNJ avec dialogues, tout un tas d’animations (saut, accroupi, sprint), un système de combo d’attaques, des sorts, un UI, etc…</p>
     </div>
 
     <div class="texteseparation">
