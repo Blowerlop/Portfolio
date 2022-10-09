@@ -42,3 +42,102 @@ t.exports=function(){var t={VERSION:"1.6.0-Webflow"},e={},n=Array.prototype,r=Ob
 Webflow.require('ix2').init(
 {"events":{"e-3":{"id":"e-3","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"FADE_EFFECT","instant":false,"config":{"actionListId":"fadeIn","autoStopEventId":"e-4"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"6334af55de804e95f3d6e298|4b854d18-6dcf-9b44-7217-0b52e11c61ae","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"6334af55de804e95f3d6e298|4b854d18-6dcf-9b44-7217-0b52e11c61ae","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":250,"direction":null,"effectIn":true},"createdOn":1664413194150},"e-5":{"id":"e-5","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"FADE_EFFECT","instant":false,"config":{"actionListId":"fadeIn","autoStopEventId":"e-6"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"6334af55de804e95f3d6e298|d79becdc-f0a5-1af5-fb90-3151f226da49","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"6334af55de804e95f3d6e298|d79becdc-f0a5-1af5-fb90-3151f226da49","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":0,"direction":null,"effectIn":true},"createdOn":1664413396373},"e-7":{"id":"e-7","name":"","animationType":"preset","eventTypeId":"MOUSE_OVER","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideInTop","autoStopEventId":"e-8"}},"mediaQueries":["main"],"target":{"id":"549415a6-7195-268c-9ae3-8c67101109c1","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"549415a6-7195-268c-9ae3-8c67101109c1","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":0,"direction":"TOP","effectIn":true},"createdOn":1664419999249},"e-8":{"id":"e-8","name":"","animationType":"preset","eventTypeId":"MOUSE_OUT","action":{"id":"","actionTypeId":"SLIDE_EFFECT","instant":false,"config":{"actionListId":"slideOutTop","autoStopEventId":"e-7"}},"mediaQueries":["main"],"target":{"id":"549415a6-7195-268c-9ae3-8c67101109c1","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"549415a6-7195-268c-9ae3-8c67101109c1","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":0,"direction":"TOP","effectIn":false},"createdOn":1664419999249}},"actionLists":{"fadeIn":{"id":"fadeIn","useFirstGroupAsInitialState":true,"actionItemGroups":[{"actionItems":[{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"duration":0,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":0}}]},{"actionItems":[{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"outQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":1}}]}]},"slideInTop":{"id":"slideInTop","useFirstGroupAsInitialState":true,"actionItemGroups":[{"actionItems":[{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"duration":0,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":0}}]},{"actionItems":[{"actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"duration":0,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":0,"yValue":-100,"xUnit":"PX","yUnit":"PX","zUnit":"PX"}}]},{"actionItems":[{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"outQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":1}},{"actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"outQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":0,"yValue":0,"xUnit":"PX","yUnit":"PX","zUnit":"PX"}}]}]},"slideOutTop":{"id":"slideOutTop","actionItemGroups":[{"actionItems":[{"actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"inQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"value":0}},{"actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"inQuart","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":0,"yValue":-100,"xUnit":"PX","yUnit":"PX","zUnit":"PX"}}]}]}},"site":{"mediaQueries":[{"key":"main","min":992,"max":10000},{"key":"medium","min":768,"max":991},{"key":"small","min":480,"max":767},{"key":"tiny","min":0,"max":479}]}}
 );
+
+
+
+
+
+
+// Games
+const survival = document.getElementById('survival');
+const modal_survival = document.getElementById('modal-survival')
+survival.addEventListener('click', () => {
+	modal_survival.classList.add('show');
+    disableScrolling();
+});
+
+const apocalypse = document.getElementById('apocalypse');
+const modal_apocalypse = document.getElementById('modal-apocalypse');
+apocalypse.addEventListener('click', () => {
+	modal_apocalypse.classList.add('show');
+    disableScrolling();
+});
+
+const lunar_fighter = document.getElementById('lunar_fighter');
+const modal_lunar_fighter = document.getElementById('modal-lunar_fighter');
+lunar_fighter.addEventListener('click', () => {
+	modal_lunar_fighter.classList.add('show');
+    disableScrolling();
+});
+
+const rocinante = document.getElementById('rocinante');
+const modal_rocinante = document.getElementById('modal-rocinante');
+rocinante.addEventListener('click', () => {
+	modal_rocinante.classList.add('show');
+    disableScrolling();
+});
+
+
+
+// Tools / Features
+const grid_system = document.getElementById('grid_system');
+const modal_grid_system = document.getElementById('modal-grid_system');
+grid_system.addEventListener('click', () => {
+	modal_grid_system.classList.add('show');
+    disableScrolling();
+});
+
+const grabbing_system = document.getElementById('grabbing_system');
+const modal_grabbing_system = document.getElementById('modal-grabbing_system');
+grabbing_system.addEventListener('click', () => {
+	modal_grabbing_system.classList.add('show');
+    disableScrolling();
+});
+
+// ----------------------------------------
+
+const closes = document.querySelectorAll('[id=close]');
+
+let modal = [
+    modal_survival, 
+    modal_apocalypse, 
+    modal_lunar_fighter, 
+    modal_rocinante,
+    modal_grid_system,
+    modal_grabbing_system
+]
+
+close();
+
+
+
+
+function close(){
+    closes.forEach(close => {
+        close.addEventListener('click', () => {
+            modal.forEach(element => {
+                element.classList.remove('show');
+                enableScrolling();
+            });
+        });
+        
+    });
+}
+
+
+
+function disableScrolling(){
+    var x=window.scrollX;
+    var y=window.scrollY;
+    window.onscroll=function(){window.scrollTo(x, y);};
+}
+
+function enableScrolling(){
+    window.onscroll=null;
+}
+
+
+
+
+
+
