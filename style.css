@@ -2665,6 +2665,10 @@ figcaption {
   background-image: url("https://uploads-ssl.webflow.com/6334af54de804ee1b8d6e294/6334af55de804ec17dd6e2ad_about-pic.svg");
 }
 
+.work-image.cc-work-7 {
+  background-image: url(./Images/chroma-clash);
+}
+
 .project-name-link {
   margin-bottom: 5px;
   font-size: 40px;

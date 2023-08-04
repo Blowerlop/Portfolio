@@ -77,6 +77,13 @@ rocinante.addEventListener('click', () => {
     disableScrolling();
 });
 
+const chromaClash = document.getElementById('chroma-clash');
+const modal_chromaClash = document.getElementById('modal-chroma-clash');
+chromaClash.addEventListener('click', () => {
+	modal_chromaClash.classList.add('show');
+    disableScrolling();
+});
+
 
 
 // Tools / Features
@@ -103,6 +110,7 @@ let modal = [
     modal_apocalypse, 
     modal_lunar_fighter, 
     modal_rocinante,
+    modal_chromaClash,
     modal_grid_system,
     modal_grabbing_system
 ]
